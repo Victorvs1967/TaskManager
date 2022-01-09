@@ -11,6 +11,7 @@
 		D3CF6DC8278B1FFC0085CDDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6DC7278B1FFC0085CDDD /* ContentView.swift */; };
 		D3CF6DCA278B200B0085CDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6DC9278B200B0085CDDD /* Assets.xcassets */; };
 		D3CF6DCD278B200B0085CDDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6DCC278B200B0085CDDD /* Preview Assets.xcassets */; };
+		D3CF6DD6278B20790085CDDD /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6DD5278B20790085CDDD /* TaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D3CF6DC9278B200B0085CDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3CF6DCC278B200B0085CDDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3CF6DCE278B200B0085CDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CF6DD5278B20790085CDDD /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D3CF6DC5278B1FFC0085CDDD /* TaskManagerApp.swift */,
+				D3CF6DD5278B20790085CDDD /* TaskModel.swift */,
 				D3CF6DC7278B1FFC0085CDDD /* ContentView.swift */,
 				D3CF6DC9278B200B0085CDDD /* Assets.xcassets */,
 				D3CF6DCE278B200B0085CDDD /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CF6DD6278B20790085CDDD /* TaskModel.swift in Sources */,
 				D3CF6DC8278B1FFC0085CDDD /* ContentView.swift in Sources */,
 				D3CF6DC6278B1FFC0085CDDD /* TaskManagerApp.swift in Sources */,
 			);
