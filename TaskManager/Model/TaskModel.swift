@@ -52,7 +52,7 @@ enum SortType: String, Identifiable, CaseIterable {
     
     var id: String { rawValue }
     
-    case alfabetical
+    case alphabetical
     case date
     case priority
     
